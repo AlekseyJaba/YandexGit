@@ -1,9 +1,8 @@
 Readme my dear friends
-```mermaid
 flowchart TB
-  A[Untracked] ----add the file----> D[Staged];
-  D ---Commit---> B[Unmodified];
-  B --Remove the file--> A;
-  B --Edit the file--> C[Modified];
-  C --Stage the file--> D;
-```
+  Untracked ----add the file----> Staged;
+  Staged ---Commit---> Unmodified;
+  Unmodified --Remove the file--> Untracked;
+  Unmodified --Edit the file--> Modified;
+  Modified --Stage the file--> Staged;
+
