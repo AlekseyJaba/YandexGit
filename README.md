@@ -1,6 +1,6 @@
 Readme my dear friends
 ```mermaid
-flowchart TD
+flowchart TB
   A[Untracked] ----add the file----> D[Staged];
   D ---Commit---> B[Unmodified];
   B --Remove the file--> A;
