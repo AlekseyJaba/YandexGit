@@ -1,4 +1,8 @@
 Readme my dear friends
+HEAD -- это голова.
+Коммит -- это всему голова.
+Статусы файлов:
+
 ```mermaid
 erDiagram
   Untracked ----add the file----> Staged
