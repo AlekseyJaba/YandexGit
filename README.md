@@ -5,6 +5,7 @@ HEAD -- это голова.
 mkdir - *создание directory*  
 touch - *создание файла*  
 rm - *удаление файла*  
+cat - *чтение файла*  
 ```mermaid
   erDiagram;
     Untracked ----add the file----> Staged;
