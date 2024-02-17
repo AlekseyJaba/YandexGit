@@ -11,4 +11,8 @@ HEAD -- это голова.
     Unmodified --Edit the file--> Modified;
     Modified --Stage the file--> Staged;
 ```
-
+git commit --amend --no-edit *Исправить коммит*  
+git commit --amend -m "" *Исправить коммит и название*  
+git restore --staged <file> *Убрать файл из коммита*  
+git reset --hard <commit hash> *Откатить коммит до hash*  
+git restore <file> *Изменить файл*  
