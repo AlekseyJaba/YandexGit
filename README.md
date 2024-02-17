@@ -1,5 +1,6 @@
 Readme my dear friends
-flowchart TB
+
+stateDiagram-v2
   Untracked ----add the file----> Staged;
   Staged ---Commit---> Unmodified;
   Unmodified --Remove the file--> Untracked;
