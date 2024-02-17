@@ -7,3 +7,4 @@ erDiagram
   Unmodified --Edit the file--> Modified
   Modified --Stage the file--> Staged
 ```
+
