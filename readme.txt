@@ -6,3 +6,4 @@ flowchart TD
   B --Remove the file--> A;
   B --Edit the file--> C[Modified];
   C --Stage the file--> D;
+```
