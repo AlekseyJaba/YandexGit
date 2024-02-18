@@ -15,7 +15,7 @@ cat - *чтение файла*
     Modified --Stage the file--> Staged;
 ```
 git diff - *Показывает что изменилось внутри файлов*  
-git log oneline - *все коммиты в сокр виде*
+git log oneline - *все коммиты в сокр виде*  
 git commit --amend --no-edit *Исправить коммит*  
 git commit --amend -m "" *Исправить коммит и название*  
 git restore --staged <file> *Убрать файл из коммита*  
