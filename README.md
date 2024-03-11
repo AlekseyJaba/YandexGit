@@ -22,7 +22,7 @@ git commit --amend -m "" *Исправить коммит и название*
 git restore --staged <file> *Убрать файл из коммита*  
 git reset --hard <commit hash> *Откатить коммит до hash*  
 git restore <file> *Изменить файл*  
-git clone <SSH> - *Скопировать репозиторий*
-git branch - *список веток в проекте*
-git branch <Название веток> - *создаёт ветку*
-git checkout <название ветк> - *переход в новую ветку*
+git clone <SSH> - *Скопировать репозиторий*  
+git branch - *список веток в проекте*  
+git branch <Название веток> - *создаёт ветку*  
+git checkout <название ветк> - *переход в новую ветку*  
