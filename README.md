@@ -45,14 +45,14 @@ git log --graph --oneline - *графически в консоди отобра
 **А ЭТО РЕЗУЛЬТАТ БЕЗ FAST-FORWARD**  
 ![image](https://github.com/AlekseyJaba/YandexGit/assets/113855518/479b6f14-a401-4bba-8c27-a40934f1fff3)  
 ---  
-#### **NON FAST-FORWARD  
+#### **NON FAST-FORWARD**  
 **Ситуация**  
 ![image](https://github.com/AlekseyJaba/YandexGit/assets/113855518/b284c40d-f0e0-40fe-865d-92a450a0185e)  
 git merge --no-edit add-docs  
 **результат**  
 ![image](https://github.com/AlekseyJaba/YandexGit/assets/113855518/ade9c893-024f-4d62-b6fe-1e15846ed874)  
 ---  
-####**Подход к ведению проекта в GIT**  
+#### **Подход к ведению проекта в GIT**  
 *Feature branch workflow* — `простой и самый популярный вариант.  
 Если коротко, в нём для каждого нового изменения создаётся новая ветка,  
 которая позже вливается в main с помощью git merge.`  
