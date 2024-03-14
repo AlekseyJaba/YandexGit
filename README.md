@@ -31,4 +31,10 @@ git branch -D <имя_ветки> - *Удаление ветки*
 git pull - *залить с удалённого репозитория*  
 git push - *залить на репозиторий (если ветка только создана то будет ссылка для pull request)*  
 git remote rm origin - *Удаление текущего origin*  
+---  
+### Погружаемся  
+git merge --no-edit --no-ff add-docs - *merge без fast-forward*
+*--no-edit - отключает сообщение для merge commit*  
+*--no-ff - отключает fast foreward*  
+git log --graph --oneline - *графически в консоди отображает все commitы*  
 
