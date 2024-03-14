@@ -33,14 +33,24 @@ git push - *залить на репозиторий (если ветка тол
 git remote rm origin - *Удаление текущего origin*  
 ---  
 ### Погружаемся  
+#### **FAST-FORWARD**  
 **Ситуация**  
 ![image](https://github.com/AlekseyJaba/YandexGit/assets/113855518/19ea1154-ede8-4dba-9172-b02995065ba1)  
 **результат merge fast-forward**  
 ![image](https://github.com/AlekseyJaba/YandexGit/assets/113855518/2435433f-7d06-43d5-a3cf-fe9f15369c40)  
-**А ЭТО РЕЗУЛЬТАТ БЕЗ FAST-FORWARD**  
-![image](https://github.com/AlekseyJaba/YandexGit/assets/113855518/479b6f14-a401-4bba-8c27-a40934f1fff3)  
 git merge --no-edit --no-ff add-docs - *merge без fast-forward*
 *--no-edit - отключает сообщение для merge commit*  
 *--no-ff - отключает fast foreward*  
 git log --graph --oneline - *графически в консоди отображает все commitы*  
+**А ЭТО РЕЗУЛЬТАТ БЕЗ FAST-FORWARD**  
+![image](https://github.com/AlekseyJaba/YandexGit/assets/113855518/479b6f14-a401-4bba-8c27-a40934f1fff3)  
+---  
+#### **NON FAST-FORWARD  
+**Ситуация**  
+![image](https://github.com/AlekseyJaba/YandexGit/assets/113855518/b284c40d-f0e0-40fe-865d-92a450a0185e)  
+git merge --no-edit add-docs  
+**результат**  
+![image](https://github.com/AlekseyJaba/YandexGit/assets/113855518/ade9c893-024f-4d62-b6fe-1e15846ed874)  
+
+
 
